@@ -65,3 +65,24 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+    border-bottom: 0.7em solid rgba(254, 255, 253, 0.4);
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.logo {
+	position:relative;
+	margin-left: -1.2em;
+	margin-top: 2.2em;
+}
+
+.top-navigation > .links {
+	float:right;
+}
