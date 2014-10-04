@@ -3,9 +3,7 @@
 /* reset modified from Eric Meyer's Reset
 */
 
-html {
-  box-sizing: border-box;
-}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -39,7 +37,11 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	font-size:12px;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 
 ol, ul {
@@ -66,10 +68,15 @@ table {
 	border-spacing: 0;
 }
 
+/*custome Styles*/
+.content {
+  box-sizing: border-box;
+  padding:0 15px;
+}
+
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
-    border-bottom: 0.7em solid rgba(254, 255, 253, 0.4);
 }
 .top-navigation > .content {
     width: 970px;
@@ -78,11 +85,29 @@ table {
 }
 
 .logo {
-	position:relative;
 	margin-left: -1.2em;
 	margin-top: 2.2em;
 }
 
-.top-navigation > .links {
+.top-navigation  .links {
 	float:right;
+}
+
+.top-navigation > .links li {
+float:left;
+display:inline-block;
+	padding: 0px 15px;
+	margin-top:-0.4em;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+.top-navigation .links li:hover {
+	cursor:pointer;
+	-webkit-box-shadow: 1px 1px 1px #333;
+	padding:3px 15px;
+	background-color:blue;
+	color:white;
 }
