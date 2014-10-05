@@ -226,3 +226,14 @@ table {
 	-webkit-animation-fill-mode: initial;
 	-webkit-animation-play-state: initial;
 }
+
+/*Page 2*/
+
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
