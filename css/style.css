@@ -99,6 +99,9 @@ h3 {
 	line-height: 1.4em;
 	font-weight: bold;
 }
+strong {
+	font-weight:bold;
+}
 .content {
   box-sizing: border-box;
   padding:0 15px;
@@ -151,13 +154,15 @@ h3 {
 
 .banner {
 	background: url('../img/first-background.jpg');
-	height:936px;
+	height:736px;
 	background-repeat: no-repeat; 
 	background-size: cover;
 	-webkit-background-size: cover;
 	padding: 5em 25em;
-	background-position: 0 bottom;
-	-webkit-background-position: 0 bottom
+	background-position: center bottom;
+	-webkit-background-position: center bottom;
+	background-position-x: 50%;
+	background-position-y: 100%;
 }
 .banner-text {
 	padding:20px;
@@ -200,7 +205,7 @@ h3 {
 .icon-play{
 	margin-top:1.2em;
 }
-.learnmore > button {
+.buton {
 	background-color: #00B297;
 	color:white;
 	text-align:center;
@@ -213,7 +218,7 @@ h3 {
 	line-height: 1.33;
 }
 
-.learnmore > button:hover {
+.buton:hover {
 	background-color: #00AB90;
 }
 
@@ -263,10 +268,35 @@ h3 {
     padding:0.7em;
     margin:2em 0;
 }
+
+/*3rd section*/
+
+.signup{
+	background: url('../img/buy-now-bg.jpg');
+	height:450px;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	-webkit-background-size: cover;
+	padding: 5em 25em;
+	background-position: center bottom;
+	-webkit-background-position: center bottom;
+	background-position-x: 50%;
+	background-position-y: 100%;
+}
+
+#signup-desc{
+	width:600px;
+	margin:3em 6em;
+	line-height:1.6em;
+	color:black;
+
+}
+
 /*Footer*/
 .social {
 	background-color:#B23400;
 	margin:0 auto;
+	text-align:center;
 }
 
 .icons li {
