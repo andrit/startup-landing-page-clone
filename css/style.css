@@ -226,8 +226,9 @@ strong {
 
 }
 
-.go-down > img {
-	
+.go-down > i {
+	margin:0 auto;
+	color:white;
 	transition: 300ms ease-out;
 	transition-property: initial;
 	transition-duration: 300ms;
