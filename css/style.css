@@ -105,8 +105,6 @@ strong {
 .content {
   box-sizing: border-box;
   padding:0 15px;
-  margin: 0 auto;
-  width:990px;
 }
 
 
@@ -115,11 +113,14 @@ strong {
 
 .top-navigation {
     background-color: #fff;
+    width:100%;
+    position:fixed;
+}
+.top-navigation .content {
+    width: 970px;
     height: 70px;
     margin: 0 auto;
 }
-
-    
 
 .logo {
 	margin-left: -9.9em;
@@ -128,24 +129,26 @@ strong {
 
 .top-navigation  .links {
 	float:right;
-	margin-top:2.1em;
+	font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
 }
 
-.top-navigation > .links > li {
-	float:left;
-	display:inline-block;
-	padding: 0px 15px;
-	margin-top:-0.4em;
+.top-navigation .links li {
+	display: inline-block;
+    margin-left: 25px;
 }
 
 .top-navigation .links > .active {
     color: #4c5058;
     font-weight: 600;
 }
+
 .top-navigation .links li:hover {
 	cursor:pointer;
 	-webkit-box-shadow: 1px 1px 1px #333;
-	padding:3px 15px;
 	background-color:blue;
 	color:white;
 }
